@@ -94,3 +94,47 @@ img { /* Resizing the image to fit the section */
 	padding-right: 250px;
 	
 }
+
+
+/* Styling the third section*/
+
+.third-section {
+	padding-left: 200px; /* This should be applied universally */
+	padding-right: 200px; /* This should be applied universally */
+}
+
+
+.information-header-text {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 50px;
+	font-size: 36px;
+	font-weight: 900;
+	color: #1F2937;
+}
+
+.rounded-rectangle {
+	border-radius: 25px;
+	border: 2px solid #3882F6;
+	padding: 20px;
+	width: 200px;
+	height: 150px;
+
+}
+
+.information {
+	display: flex;
+	align-items: center;
+	justify-content: space-around
+}
+
+.informative-element {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	text-align: center;
+	gap: 10px;
+}
+
