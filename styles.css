@@ -101,6 +101,7 @@ img { /* Resizing the image to fit the section */
 .third-section {
 	padding-left: 200px; /* This should be applied universally */
 	padding-right: 200px; /* This should be applied universally */
+	padding-bottom: 50px;
 }
 
 
@@ -136,5 +137,38 @@ img { /* Resizing the image to fit the section */
 	flex-wrap: wrap;
 	text-align: center;
 	gap: 10px;
+	
+}
+
+/* Styling the quote section */
+
+.quote-section {
+	background-color: #E5E7EB;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 400px;  /* This should be applied universally */
+	padding-right: 400px;   /* This should be applied universally */
+	height: 300px;
+	gap: 20px;
+}
+
+
+.quote-text {
+	font-size: 36px;
+	font-style: italic;
+	color: #1F2937;
+}
+
+
+.quote-author {
+	font-size: 24px;
+	font-weight: bold;
+	display: flex;
+	justify-content: flex-end;
+	width: 1000px;
 }
 
