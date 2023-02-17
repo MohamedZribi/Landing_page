@@ -1,0 +1,82 @@
+
+
+* {  /* This is a universal rule to get rid of body margin */
+
+	margin: 0;
+	padding: 0; 
+}
+
+
+/* Styling the header here */ 
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+	background-color: #1F2937;
+	padding-left: 200px; /* This should be applied universally */
+	padding-right: 200px; /* This should be applied universally */
+	height: 30px;
+}
+
+
+.header-link {
+	text-decoration: none;
+	color: #F9FAF8;
+	font-size: 18px;
+	padding: 20px;
+}
+
+
+.logo-text {
+	color: #E5E7EB;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+
+/*  Style the next part here (This website is aesome) */
+
+
+img { /* Resizing the image to fit the section */
+	height: 300px;
+	width: auto;
+}
+
+.hero {
+	background-color: #1F2937;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 100px;
+	padding-left: 200px; 
+	padding-right: 200px;
+
+}
+
+
+.main-text {
+	font-size: 48px;
+	color: #E5E7EB;
+}
+
+
+.descriptive-text {
+	font-size: 18px;
+	color: #E5E7EB;
+}
+
+.sign-up {
+	color: #E5E7EB;
+	background-color: lightblue;
+	border-radius: 10px;
+	background: #3882F6;
+	padding: 15px;
+	width: 150px;
+	font-size: 18px;
+	font-weight: bold;
+
+}
