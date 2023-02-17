@@ -211,3 +211,14 @@ img { /* Resizing the image to fit the section */
 	color: #3882F6;
 	
 }
+
+
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50px;
+	background-color: #1F2937;
+	font-size: 18px;
+	color: #E5E7EB;
+}
